@@ -5,14 +5,14 @@ body {
     font: 12px/1.5 "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
 }
 
-a {
+.Header a {
     color: inherit;
     text-decoration: none;
 }
 
 .u-container {
     margin: auto;
-    width: 956px;
+    width: 1200px;
     height: 100%;
 }
 
@@ -28,10 +28,11 @@ a {
 
 .Header {
     position: fixed;
+    top: 0;
     width: 100%;
     height: 64px;
     border-bottom: 1px solid #cee3f2;
-    background: #fff;
+    background: #fff
 }
 
 .Header-logo {
@@ -151,5 +152,161 @@ a {
 
 .Header-btn--hili {
     background: #f46;
+    color: #fff !important;
+}
+
+.Header-phonetrigger {
+    padding: 2px 0 2px 16px;
+    background: url(img/phone.png) no-repeat 0 center;
+}
+
+.Header-phonearrow {
+    margin-left: 15px;
+    width: 10px;
+    height: 26px;
+    background: url(img/arrow-down.png) no-repeat center;
+}
+
+.Header-helperPhone {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 25px;
+    height: 65px;
+    cursor: pointer;
+}
+
+.Header-phoneimg {
+    position: absolute;
+    top: 65px;
+    right: 75px;
+    display: none;
+    padding: 160px 25px 20px;
+    background: url(img/erweima.png) no-repeat center 20px;
+    background-color: #fff;
+}
+
+.Header-helperPhone:hover .Header-phonearrow {
+    background: url(img/arrow-up.png) no-repeat center;
+}
+
+.Header-helperPhone:hover .Header-phonetrigger {
+    color: #f46
+}
+
+.Header-helperPhone:hover .Header-phoneimg {
+    display: block;
+}
+
+.contain {
+    margin: auto;
+    margin-top: 110px;
+    width: 1200px;
+    height: 100px;
+}
+
+.focuspic {
+    float: left;
+    overflow: hidden;
+    width: 710px;
+    height: 443px;
+}
+
+.focuspic ul {
+    padding-left: 0;
+}
+
+.Community {
+    float: right;
+    width: 468px;
+    height: 443px;
+    font-family: tahoma,arial,sans-serif;
+}
+
+.Community-ups {
+    padding: 0 33px;
+    height: 293px;
+    border: 1px solid #dedfe0;
+    background: #fff;
+}
+
+.Community-ups h3 {
+    margin: 0;
+    padding-top: 14px;
+    height: 36px;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+    font-size:16px;
+}
+
+.Community-up {
+    padding-top:16px;
+    height: 35px;
+    border-top: 1px dotted #ccc;
+    color: #444;
+    font-size: 12px;
+}
+
+.Community-up--winteritem {
+    display: inline-block;
+    padding: 6px 20px 0 16px;
+    background: url(img/bigpic.png) right 8px;
+}
+
+.Community-up--winter {
+    margin-left:-16px;
+    height: 68px;
+    border-top: 0
+}
+
+.Community-up--activity a {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+
+.Community-up--activitycolor {
+    margin-left: 5px;
+    padding:0 3px;
+    border-radius: 2px;
+    background-color: #fb3;
     color: #fff;
+}
+
+.Community-up--choice a {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+
+.Community-up--choicecolor {
+    margin-left: 5px;
+    padding:0 3px;
+    border-radius: 2px;
+    background-color: #f46;
+    color: #fff;
+}
+
+.Community-up--tool a {
+    padding-right: 20px;
+}
+
+.Community-ups a {
+    color: #444;
+    text-decoration:none;
+}
+
+.Community-ups a:hover {
+    text-decoration:underline;
+}
+
+.Community-down {
+    margin-top: 20px;
+    border: 1px solid #dedfe0;
+}
+
+.Community-downlink {
+    display: block;
+    height: 130px;
+    background: url(img/down.jpeg) no-repeat;
 }
