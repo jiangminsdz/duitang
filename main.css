@@ -2,7 +2,7 @@ body {
     margin: 0;
     background: #f1f2f3;
     color: #666;
-    font: 12px/1.5 "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+    font: 12px/1.5 tahoma,arial,sans-serif;
 }
 
 .Header a {
@@ -81,7 +81,7 @@ body {
     padding: 40px 30px 20px;
     width: 300px;
     border: 1px solid #e0e0e0;
-    background: #fff;
+    background: #fff
 }
 
 .Header-categories:hover .Header-categoriesContent {
@@ -198,11 +198,15 @@ body {
     display: block;
 }
 
-.contain {
-    margin: auto;
+.content {
+    margin: 0 auto;
     margin-top: 110px;
     width: 1200px;
-    height: 100px;
+}
+
+.contain {
+/*    margin: auto;
+    margin-top: 110px;*/
 }
 
 .focuspic {
@@ -270,7 +274,7 @@ body {
     padding:0 3px;
     border-radius: 2px;
     background-color: #fb3;
-    color: #fff;
+    color: #fff !important;
 }
 
 .Community-up--choice a {
@@ -284,7 +288,7 @@ body {
     padding:0 3px;
     border-radius: 2px;
     background-color: #f46;
-    color: #fff;
+    color: #fff !important;
 }
 
 .Community-up--tool a {
@@ -309,4 +313,92 @@ body {
     display: block;
     height: 130px;
     background: url(img/down.jpeg) no-repeat;
+}
+
+.Album {
+    margin-top: 40px;
+    border-top: 1px solid #d4d5d5
+}
+
+.Album h2 {
+    float: left;
+    margin: 0;
+    padding: 30px 0;
+    color: #444;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: tahoma,arial,sans-serif;
+}
+
+.review {
+    float: right;
+    margin-top: 28px;
+}
+
+.reviewlink {
+display: block;
+width: 80px;
+height: 28px;
+border-radius:2px;
+background-color: #22b4f6;
+color: #fff;
+text-align: center;
+text-decoration: none;
+font-weight: 700px !important;
+font-size: 13px;
+font-family: tahoma,arial,sans-serif;
+line-height: 28px;
+}
+
+.Albumsections {
+    margin-top: 87px;
+    width: 1222px;
+    height: 328px;
+}
+
+.Albumsection {
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 4px;
+    width: 224px;
+}
+
+.Albumsection-img a {
+    display: block;
+    overflow: hidden;
+    width: 224px;
+    height: 224px;
+}
+
+.txtlink {
+    display: block;
+    padding: 12px 10px 0;
+    height: 34px;
+    color: #444;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.Albumsection-txt {
+    border-right: 1px solid #dedfe0;
+    border-bottom: 1px solid #dedfe0;
+    /*height: 99px;*/
+    border-left: 1px solid #dedfe0;
+}
+
+.txtsection p {
+    margin: 0;
+}
+
+.txtsection {
+    padding: 8px 10px 12px;
+    height: 34px;
+    color: #888;
+    font-size: 12px;
+}
+
+.txtsection a {
+    color: #888;
+    text-decoration: none;
 }
