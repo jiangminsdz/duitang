@@ -117,6 +117,7 @@ body {
     margin-left: 20px;
     padding: 5px 30px 5px 8px;
     width: 200px;
+    outline: none;
     border: 1px solid #ccc;
     background: url(img/search.png) no-repeat 210px center;
 }
@@ -202,11 +203,6 @@ body {
     margin: 0 auto;
     margin-top: 110px;
     width: 1200px;
-}
-
-.contain {
-/*    margin: auto;
-    margin-top: 110px;*/
 }
 
 .focuspic {
@@ -315,12 +311,12 @@ body {
     background: url(img/down.jpeg) no-repeat;
 }
 
-.Album {
+.area {
     margin-top: 40px;
     border-top: 1px solid #d4d5d5
 }
 
-.Album h2 {
+.area h2 {
     float: left;
     margin: 0;
     padding: 30px 0;
@@ -383,8 +379,8 @@ line-height: 28px;
 .Albumsection-txt {
     border-right: 1px solid #dedfe0;
     border-bottom: 1px solid #dedfe0;
-    /*height: 99px;*/
     border-left: 1px solid #dedfe0;
+    background-color: #fff;
 }
 
 .txtsection p {
@@ -401,4 +397,96 @@ line-height: 28px;
 .txtsection a {
     color: #888;
     text-decoration: none;
+}
+
+.txtbottom-a {
+    width: 220px;
+}
+
+.txtbottom-b {
+    width: 216px;
+}
+
+.txtbottom-a,.txtbottom-b {
+    margin: 0 auto;
+    height: 1px;
+    border-bottom: 1px solid #dedfe0;
+}
+
+.liangpinBuy {
+    display: inline;
+    float: right;
+    margin-top: 34px;
+}
+
+.liangpinBuy a {
+    padding: 0 12px;
+    border-right: 1px solid #ddd;
+    color: #444;
+    text-decoration: none;
+}
+
+.liangpinBuy a:hover {
+    text-decoration: underline;
+}
+
+.liangpinBuy a:last-child {
+    border: 0;
+}
+
+.singleRecommend {
+    float: left;
+    margin-right: 20px;
+}
+
+.singleRecommendlink {
+    display: block;
+    width: 224px;
+    height: 224px;
+}
+
+.singleRecommends {
+    overflow: hidden;
+    margin-top: 87px;
+    width: 1222px;
+}
+
+.singleRecommendtxt {
+    position: relative;
+    border-right: 1px solid #dedfe0;
+    border-bottom: 3px solid #dedfe0;
+    border-left: 1px solid #dedfe0;
+    background-color: #fff;
+}
+
+.singleRecommendtxt-title {
+    margin: 0;
+    padding: 12px;
+}
+
+.singleRecommendtxt-num {
+    margin: 0;
+    padding: 0 12px 12px;
+    color: #888;
+    font-size: 12px;
+}
+
+.titlelink {
+    color: #444;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.singleRecommendtxt-btn {
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    width: 56px;
+    height: 25px;
+    background-color: #fb3;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 25px;
 }
