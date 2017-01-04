@@ -326,12 +326,12 @@ body {
     font-family: tahoma,arial,sans-serif;
 }
 
-.review {
+.review,.moreExpert {
     float: right;
     margin-top: 28px;
 }
 
-.reviewlink {
+.reviewlink,.moreExpertlink {
 display: block;
 width: 80px;
 height: 28px;
@@ -489,4 +489,95 @@ line-height: 28px;
     text-align: center;
     text-decoration: none;
     line-height: 25px;
+}
+
+.experts {
+    margin-top: 87px;
+    width: 1222px;
+    height: 256px;
+}
+
+.expert {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 4px;
+    width: 224px;
+}
+
+/*.expert-img {
+    height: 112px;
+}*/
+
+.expert-img--big {
+    width: 224px;
+    height: 112px;
+}
+
+.expert-img--small {
+    position: absolute;
+    top: 68px;
+    left: 68px;
+    width: 80px;
+    height: 80px;
+    border: 4px solid #fff;
+    border-radius: 80px;
+}
+
+.expert-img--v {
+    position: absolute;
+    top: 128px;
+    left: 128px;
+}
+
+.expert-txt {
+    border-right: 1px solid #dedfe0;
+    border-bottom: 3px solid #dedfe0;
+    border-left: 1px solid #dedfe0;
+    background-color: #fff;
+}
+
+.expert-txt--name {
+    display: block;
+    padding: 52px 10px 0;
+    color: #444;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.expert-txt--name:hover {
+    text-decoration: underline;
+}
+
+.expert-txt--count {
+    margin: 4px auto 0;
+    height: 16px;
+    color: #888;
+    text-align: center;
+    font-size: 13px;
+}
+
+.expert-txt--star {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(img/bgimg.png) no-repeat -4px -52px;
+}
+
+.expert-txt--total {
+    vertical-align: top;
+    line-height: 16px;
+}
+
+.expert-txt--interest {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.expert-str {
+    color: #444;
+    font-weight: 400;
 }
