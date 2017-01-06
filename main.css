@@ -202,6 +202,7 @@ body {
 .content {
     margin: 0 auto;
     margin-top: 110px;
+    padding-bottom: 100px;
     width: 1200px;
 }
 
@@ -575,6 +576,7 @@ line-height: 28px;
 }
 
 .dajias {
+    overflow: hidden;
     width: 1225px;
 }
 
@@ -649,4 +651,28 @@ line-height: 28px;
 
 .shoujidao {
     color: #888;
+}
+
+.skimmore-link {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 40px;
+    background-color: #22b4f6;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.skimmore {
+    margin-top: 24px;
+}
+
+.Footer {
+    padding: 22px 0;
+    border-top: 1px solid #d8d9da;
+    background-color: #e1e2e3;
 }
