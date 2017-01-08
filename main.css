@@ -676,3 +676,92 @@ line-height: 28px;
     border-top: 1px solid #d8d9da;
     background-color: #e1e2e3;
 }
+.dibuarea {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.dibuarea-up {
+    overflow: hidden;
+    width: 1222px;
+}
+
+.dibuarea-section {
+    float: left;
+    padding: 9px 22px;
+    width: 200px;
+    height: 142px;
+}
+
+.dibuarea-link {
+    float: left;
+    width: 100px;
+    height: 30px;
+    color: #666;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.dibuarea-title {
+    margin: 0 0 15px;
+    color: #444;
+    font-size: 13px;
+}
+
+.dibuarea-erweima {
+    margin: 5px auto;
+    padding: 3px;
+    width: 88px;
+    height: 88px;
+    background-color: #fff;
+}
+
+.dibuarea-erweima--img {
+    width: 100%;
+}
+
+.dibuarea-erweima--txt {
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.dibuarea-link:hover {
+    text-decoration: underline;
+}
+
+.dibuarea-down {
+    margin-top: 20px;
+    height: 47px;
+    color: #888;
+    text-align: center;
+    font-size: 13px;
+    line-height: 47px;
+}
+
+.dibuarea-down--img {
+    display: inline-block;
+    margin-left: 10px;
+    height: 36px;
+    vertical-align: middle;
+}
+
+.dibuarea-down--img1 {
+    width: 128px;
+    background: url(img/duitangbg.png) no-repeat -920px -490px;
+}
+
+.dibuarea-down--img2 {
+    width: 102px;
+    background: url(img/duitangbg.png) no-repeat -798px -540px;
+}
+
+.dibuarea-down--img3 {
+    width: 113px;
+    background: url(img/img3.png) no-repeat;
+}
+
+.dibuarea-down--img4 {
+    width: 96px;
+    background: url(img/img4.jpeg) no-repeat;
+}
